@@ -18,7 +18,7 @@ namespace ConsoleApp3
             Console.Write("City: ");
             string city = Console.ReadLine();
 
-
+            Console.WriteLine();
 
             DisplayResult(ReverseString(firstName),
                 ReverseString(lastName),
@@ -26,6 +26,7 @@ namespace ConsoleApp3
 
 
             Console.ReadLine();
+            
         }
 
         private static string ReverseString(string message)
