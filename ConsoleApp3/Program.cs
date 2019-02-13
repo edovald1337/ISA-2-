@@ -19,6 +19,7 @@ namespace ConsoleApp3
             string city = Console.ReadLine();
 
             Console.WriteLine();
+            Console.WriteLine();
 
             DisplayResult(ReverseString(firstName),
                 ReverseString(lastName),
