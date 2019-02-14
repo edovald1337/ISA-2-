@@ -174,6 +174,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnderstandingScope", "Under
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderstandingScope", "UnderstandingScope\UnderstandingScope.csproj", "{61E8C9C8-177C-4991-BA78-8AA7A79102B0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AssembliesAndNamespaces", "AssembliesAndNamespaces", "{639AF006-A3B0-4791-822D-64FF1B940A08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssembliesAndNamespaces", "AssembliesAndNamespaces\AssembliesAndNamespaces.csproj", "{85778229-819D-4EB0-BA2C-E0DE2D56EA60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -236,6 +240,10 @@ Global
 		{61E8C9C8-177C-4991-BA78-8AA7A79102B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{61E8C9C8-177C-4991-BA78-8AA7A79102B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{61E8C9C8-177C-4991-BA78-8AA7A79102B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85778229-819D-4EB0-BA2C-E0DE2D56EA60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85778229-819D-4EB0-BA2C-E0DE2D56EA60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85778229-819D-4EB0-BA2C-E0DE2D56EA60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85778229-819D-4EB0-BA2C-E0DE2D56EA60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -287,6 +295,8 @@ Global
 		{A1A66D8C-F249-42BE-920D-7B2E8D786F7F} = {94D55FAA-18AB-4AC1-A65B-9ED80D0FB34B}
 		{59B0BA4A-3EF0-4D13-BB22-6BEFE3F97DEC} = {9EFC9D30-E674-4D1A-B3B1-2F0B08C797C8}
 		{61E8C9C8-177C-4991-BA78-8AA7A79102B0} = {59B0BA4A-3EF0-4D13-BB22-6BEFE3F97DEC}
+		{639AF006-A3B0-4791-822D-64FF1B940A08} = {9EFC9D30-E674-4D1A-B3B1-2F0B08C797C8}
+		{85778229-819D-4EB0-BA2C-E0DE2D56EA60} = {639AF006-A3B0-4791-822D-64FF1B940A08}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {65332B08-7143-4F19-8F53-B2F41D1FE69E}
