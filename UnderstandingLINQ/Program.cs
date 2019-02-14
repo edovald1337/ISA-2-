@@ -58,6 +58,14 @@ namespace UnderstandingLINQ
             var orderedCars = myCars.OrderByDescending(p => p.Year);
             Console.WriteLine(orderedCars.GetType());
 
+            var bmws = myCars.Where(p => p.Make == "BMW" && p.Year == 2010);
+            Console.WriteLine(bmws.GetType());
+
+            var newCars = from car in myCars
+                where car.Make == "BMW"
+                      && car.Year == 2010
+                select new { car.Make, car.Model };
+            Console.WriteLine(newCars.GetType());
 
             Console.ReadLine();
 
