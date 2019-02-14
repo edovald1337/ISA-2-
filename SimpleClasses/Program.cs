@@ -10,7 +10,22 @@ namespace SimpleClasses
     {
         static void Main(string[] args)
         {
+            Car myCar = new Car();
+            myCar.Make = "Audi";
+            myCar.Model = "A3";
+            myCar.Year = "2009";
+            myCar.Color = "Dark Green";
 
+            Console.WriteLine("{0} {1} {2} {3}", myCar.Make,myCar.Model,myCar.Year,myCar.Color);
+            Console.ReadLine();
         }
+    }
+
+    class Car
+    {
+        public string Make { get; set; }
+        public string Model  { get; set; }
+        public string Year { get; set; }
+        public string Color { get; set; }
     }
 }
