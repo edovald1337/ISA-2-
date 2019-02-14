@@ -66,7 +66,6 @@ namespace ObjectLifetime
         public static void MyMethod()
         {
             Console.WriteLine("Called the static MyMethod");
-            Console.WriteLine(Make);
         }
     }
 }
