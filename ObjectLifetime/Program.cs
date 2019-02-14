@@ -17,7 +17,10 @@ namespace ObjectLifetime
             //myCar.Year = 2009;
             //myCar.Color = "Dark Green";
 
+            Car.MyMethod();
+            /*
             //Car myThirdCar = new Car("Ford", "Fiesta", 2005, "White");
+
 
             Car myOtherCar;
             myOtherCar = myCar;
@@ -31,6 +34,7 @@ namespace ObjectLifetime
             //Console.WriteLine("{0} {1} {2} {3}", myOtherCar.Make, myOtherCar.Model, myOtherCar.Year, myOtherCar.Color);
 
             myCar = null;
+            */
 
             Console.ReadLine();
 
@@ -58,5 +62,11 @@ namespace ObjectLifetime
             Color = color;
         }
         */
+
+        public static void MyMethod()
+        {
+            Console.WriteLine("Called the static MyMethod");
+            Console.WriteLine(Make);
+        }
     }
 }
