@@ -12,10 +12,12 @@ namespace ObjectLifetime
         {
             Car myCar = new Car();
 
-            myCar.Make = "Audi";
-            myCar.Model = "A3";
-            myCar.Year = 2009;
-            myCar.Color = "Dark Green";
+            //myCar.Make = "Audi";
+            //myCar.Model = "A3";
+            //myCar.Year = 2009;
+            //myCar.Color = "Dark Green";
+
+            //Car myThirdCar = new Car("Ford", "Fiesta", 2005, "White");
 
             Car myOtherCar;
             myOtherCar = myCar;
@@ -41,5 +43,20 @@ namespace ObjectLifetime
         public string Model { get; set; }
         public int Year { get; set; }
         public string Color { get; set; }
+
+        /*
+        public Car()
+        {
+            Make = "Nissan";
+        }
+
+        public Car(string make, string model, int year, string color)
+        {
+            Make = make;
+            Model = model;
+            Year = year;
+            Color = color;
+        }
+        */
     }
 }
