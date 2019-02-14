@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Net;
 
 
 namespace AssembliesAndNamespaces
@@ -7,7 +9,12 @@ namespace AssembliesAndNamespaces
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world!");
+
+            WebClient client = new WebClient();
+            string reply = client.DownloadString("http://msdn.microsoft.com");
+
+            Console.WriteLine(reply);
+            File.WriteAllText(@"C:\Users\rawliito\Desktop\WriteText.txt", reply);
             Console.ReadLine();
         }
     }
