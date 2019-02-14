@@ -30,6 +30,10 @@ namespace HandlingExceptions
                 Console.WriteLine("Problem");
                 Console.WriteLine(e.Message);
             }
+            finally
+            {
+                Console.WriteLine("Closing app now... ");
+            }
             Console.ReadLine();
 
         }
