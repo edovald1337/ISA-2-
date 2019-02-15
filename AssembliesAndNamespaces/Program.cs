@@ -15,6 +15,7 @@ namespace AssembliesAndNamespaces
 
             Console.WriteLine(reply);
             Console.WriteLine();
+            Console.WriteLine();
             File.WriteAllText(@"C:\Users\rawliito\Desktop\WriteText.txt", reply);
             Console.ReadLine();
         }
