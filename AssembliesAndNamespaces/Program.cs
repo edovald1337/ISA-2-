@@ -14,6 +14,7 @@ namespace AssembliesAndNamespaces
             string reply = client.DownloadString("http://msdn.microsoft.com");
 
             Console.WriteLine(reply);
+            Console.WriteLine();
             File.WriteAllText(@"C:\Users\rawliito\Desktop\WriteText.txt", reply);
             Console.ReadLine();
         }
